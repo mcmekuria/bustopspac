@@ -1,0 +1,18 @@
+Bus Stop Spacing Analysis and Optimization performs optimization of stop locations on a single Transit Route.
+Given three spatial datasets, Stops by trip or period demand and travel time, Street network for access to stiops 
+and origin / destination parcel or block locations, the program provides the best arrangement of the stops to 
+minimze the total cost of operation, (Walk , ride and operating costs) .  
+The routine was written by Maaza Christos Mekuria while in graduate school at Northeastern University.  
+This work is an update of the original research tool. The update included ability to perform trip level analysis 
+and optimization as well as use of geospatial data for all the street network, parcel and stop level data.  
+A sqlite data storage is used for all inputs and the program writes also geographic data output into either 
+an existing or new sqlite database.
+
+The details of the optimization model is described in the dissertation document that maybe downloaded from 
+https://repository.library.northeastern.edu/files/neu:822/fulltext.pdf .  Working under Prof. Peter Furth, Maaza 
+stumbled upon that the simple one dimensional optimization fails to be optimal as it could not handel the 
+network curve effect from either the road network or the route geometry or both.  Hence the extended state-space 
+model was deemed necessary and with help from some unknown researcher in Europe, Prof. Furth introduced Maaza 
+to multi-state-space dynamic programming and the rest is history.    
+
+    
