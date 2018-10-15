@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF49F76D-BFD2-40C6-8EFE-DFC06322F37F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bustops", "bustops.vcproj", "{E342E557-C597-43CA-9C46-44A0786BE176}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "busetup", "..\busetup\busetup.vdproj", "{767C0807-0CD5-41E4-BA3A-C46E33818243}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E342E557-C597-43CA-9C46-44A0786BE176}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E342E557-C597-43CA-9C46-44A0786BE176}.Debug|Win32.Build.0 = Debug|Win32
+		{E342E557-C597-43CA-9C46-44A0786BE176}.Release|Win32.ActiveCfg = Release|Win32
+		{E342E557-C597-43CA-9C46-44A0786BE176}.Release|Win32.Build.0 = Release|Win32
+		{767C0807-0CD5-41E4-BA3A-C46E33818243}.Debug|Win32.ActiveCfg = Debug
+		{767C0807-0CD5-41E4-BA3A-C46E33818243}.Debug|Win32.Build.0 = Debug
+		{767C0807-0CD5-41E4-BA3A-C46E33818243}.Release|Win32.ActiveCfg = Release
+		{767C0807-0CD5-41E4-BA3A-C46E33818243}.Release|Win32.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
